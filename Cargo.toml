@@ -1,0 +1,22 @@
+[package]
+name = "coopted_llvm_sys"
+version = "0.1.0" # update docs link on bump
+authors = ["Anthony Ramine <nox@nox.paris>"]
+description = "Coöpt rustc‘s own LLVM to do fancy stuff with it"
+license = "Apache-2.0 OR MIT"
+repository = "https://github.com/nox/coopted_llvm"
+documentation = "https://docs.rs/coopted_llvm_sys/0.1.0"
+readme = "README.md"
+edition = "2018"
+links = "llvm"
+
+include = [
+    "build.rs",
+    "LICENSE-APACHE",
+    "LICENSE-MIT",
+    "README.md",
+    "src",
+]
+
+[dependencies]
+libc = "0.2"
